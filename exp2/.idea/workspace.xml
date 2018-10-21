@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f2089e9-925f-418c-86c9-9e37ce23107e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/Servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,14 +48,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2" />
-          <entry key="java" value="705" />
+          <entry key="java" value="1161" />
           <entry key="xml" value="195" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="705" />
+          <entry key="JAVA" value="1161" />
           <entry key="XML" value="195" />
         </counts>
       </usages-collector>
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="282">
+              <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -347,12 +345,12 @@
       <updated>1540035986206</updated>
       <workItem from="1540035990255" duration="1760000" />
       <workItem from="1540048231177" duration="2776000" />
-      <workItem from="1540093608851" duration="1274000" />
+      <workItem from="1540093608851" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5810000" />
+    <option name="totallyTimeSpent" value="6532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,17 +365,17 @@
     <frame x="70" y="-7" width="1474" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8056338" visible="true" weight="0.25706214" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80785125" visible="true" weight="0.25706214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.1943662" side_tool="true" visible="true" weight="0.25706214" />
+      <window_info id="Web" order="7" sideWeight="0.19214876" side_tool="true" visible="true" weight="0.25706214" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
-      <window_info active="true" anchor="bottom" x="61" y="99" width="1460" height="841" id="Run" order="2" visible="true" weight="0.5076283" />
+      <window_info active="true" anchor="bottom" x="61" y="99" width="1460" height="841" id="Run" order="2" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39528432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="282">
+          <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

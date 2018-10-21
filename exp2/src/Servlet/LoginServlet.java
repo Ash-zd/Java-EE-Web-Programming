@@ -4,6 +4,7 @@ import java.io.PrintWriter;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -34,6 +35,26 @@ public class LoginServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        doPost(request, response);
+        Cookie cookie1 = new Cookie("login_name", "zhangsan");
+        Cookie cookie2 = new Cookie("login_password", "123");
+        Cookie cookie3 = new Cookie("login_sex", "male");
+        cookie1.setMaxAge(60*60);
+        cookie2.setMaxAge(60*60);
+        cookie3.setMaxAge(60*60);
+
+        response.addCookie(cookie1);
+        response.addCookie(cookie2);
+        response.addCookie(cookie3);
+
+        Cookie[] cookies = request.getCookies();
+        PrintWriter servletOut = response.getWriter();
+
+        if (cookies == null) {
+            servletOut.println("none any Cookie");
+        } else {
+            for (int i = 0; i < cookies.length; i++) {
+                servletOut.println(cookies[i].getName() + "=" + cookies[i].getValue() + "</br>");
+            }
+        }
     }
 }
