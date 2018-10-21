@@ -17,4 +17,16 @@
         <servlet-name>loginServlet</servlet-name>
         <url-pattern>/Servlet/LoginServlet</url-pattern>
     </servlet-mapping>
+    <filter>
+        <filter-name>log</filter-name>
+        <filter-class>Filter.AuthorityFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>GBK</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>log</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 </web-app>
